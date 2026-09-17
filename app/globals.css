@@ -24,3 +24,56 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ============ Shared inner-page styles ============ */
+.page-banner {
+  padding: 132px 28px 64px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f6a66, #1a9187);
+  color: #ffffff;
+}
+
+.page-banner__eyebrow {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffd9a0;
+}
+
+.page-banner__title {
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(30px, 4.4vw, 48px);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.page-banner__sub {
+  margin: 14px auto 0;
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e7f2f0;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 64px 28px;
+}
+
+.prose p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #45505a;
+  margin: 0 0 18px;
+}
+
+.h-serif {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #14464a;
+  font-weight: 600;
+}
