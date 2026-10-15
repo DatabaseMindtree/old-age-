@@ -1,0 +1,55 @@
+.steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #e7ecea;
+  border-radius: 16px;
+  padding: 26px 28px;
+}
+
+.step__num {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  background: linear-gradient(140deg, #5e7f57, #6f9566);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.step__title {
+  margin: 4px 0 10px;
+  font-size: 21px;
+}
+
+.step__body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #45505a;
+}
+
+.movingin__cta {
+  margin-top: 36px;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .step {
+    flex-direction: column;
+    gap: 14px;
+  }
+}

@@ -1,7 +1,7 @@
 .footer {
   margin-top: auto;
-  background: #10393b;
-  color: #cfe0dd;
+  background: #2b3626;
+  color: #d7e1cc;
 }
 
 .footer__inner {
@@ -24,7 +24,7 @@
   margin: 12px 0 0;
   font-size: 15px;
   line-height: 1.7;
-  color: #a9c4c0;
+  color: #adbfa0;
   max-width: 340px;
 }
 
@@ -34,7 +34,7 @@
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #e6a552;
+  color: #c77b52;
 }
 
 .footer__links,
@@ -48,7 +48,7 @@
 }
 
 .footer__link {
-  color: #cfe0dd;
+  color: #d7e1cc;
   text-decoration: none;
   font-size: 15px;
   transition: color 0.15s ease;
@@ -61,7 +61,7 @@
 .footer__contact li {
   font-size: 15px;
   line-height: 1.5;
-  color: #a9c4c0;
+  color: #adbfa0;
 }
 
 .footer__bar {
@@ -74,7 +74,7 @@
   gap: 8px 20px;
   justify-content: space-between;
   font-size: 13px;
-  color: #8fa8a4;
+  color: #93a588;
 }
 
 @media (max-width: 820px) {

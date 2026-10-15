@@ -3,7 +3,7 @@
   width: 100%;
   height: clamp(380px, 62vh, 640px);
   overflow: hidden;
-  background: #0f6a66;
+  background: #4f6d47;
 }
 
 .hero__slides {
@@ -62,23 +62,27 @@
   inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(10, 40, 40, 0.65) 0%,
-    rgba(10, 40, 40, 0.35) 45%,
-    rgba(10, 40, 40, 0.1) 100%
+    rgba(26, 34, 20, 0.65) 0%,
+    rgba(26, 34, 20, 0.35) 45%,
+    rgba(26, 34, 20, 0.1) 100%
   );
 }
 
 .hero__caption {
   position: absolute;
-  left: 0;
-  bottom: 0;
   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Centered content column, aligned with the rest of the page */
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 18px;
-  max-width: 620px;
-  padding: 0 28px 0 max(28px, calc((100vw - 1160px) / 2 + 28px));
+  padding: 0 28px;
   color: #ffffff;
 }
 
@@ -88,6 +92,7 @@
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
+  max-width: 600px;
   text-shadow: 0 2px 18px rgba(0, 0, 0, 0.25);
 }
 
@@ -95,7 +100,7 @@
   font-size: clamp(16px, 2vw, 21px);
   line-height: 1.5;
   margin: 0;
-  color: #f3f6f5;
+  color: #f3f4ec;
   max-width: 520px;
 }
 
@@ -104,8 +109,8 @@
   margin-top: 6px;
   padding: 13px 28px;
   border-radius: 999px;
-  background: #e6a552;
-  color: #14464a;
+  background: #c77b52;
+  color: #2e3a2a;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -114,7 +119,7 @@
 }
 
 .hero__cta:hover {
-  background: #efb872;
+  background: #d58f66;
   transform: translateY(-2px);
 }
 
@@ -189,7 +194,7 @@
 
 .section--muted {
   max-width: none;
-  background: #f4f7f6;
+  background: #f4f2ea;
 }
 
 .section--muted .section__head,
@@ -205,7 +210,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #e0a458;
+  color: #bf7149;
 }
 
 .section__title {
@@ -215,7 +220,7 @@
   font-size: clamp(26px, 3.4vw, 38px);
   font-weight: 600;
   line-height: 1.2;
-  color: #14464a;
+  color: #2e3a2a;
 }
 
 .section__lead {
@@ -248,7 +253,7 @@
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(20, 116, 111, 0.12);
+  box-shadow: 0 14px 30px rgba(94, 127, 87, 0.12);
 }
 
 .card__icon {
@@ -258,7 +263,7 @@
   height: 64px;
   margin-bottom: 18px;
   border-radius: 999px;
-  background: #e6f2f0;
+  background: #e9efe1;
   font-size: 30px;
 }
 
@@ -266,7 +271,7 @@
   margin: 0 0 10px;
   font-size: 19px;
   font-weight: 700;
-  color: #14464a;
+  color: #2e3a2a;
 }
 
 .card__text {
@@ -282,7 +287,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 54px 28px;
-  background: linear-gradient(135deg, #0f6a66, #1a9187);
+  background: linear-gradient(135deg, #4f6d47, #6f9566);
   color: #ffffff;
   text-align: center;
 }
@@ -303,7 +308,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #d6ece9;
+  color: #dde7d1;
 }
 
 /* CTA band */
@@ -319,7 +324,7 @@
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(26px, 3.4vw, 36px);
   font-weight: 600;
-  color: #14464a;
+  color: #2e3a2a;
 }
 
 .cta-band__text {
@@ -334,17 +339,17 @@
   display: inline-block;
   padding: 14px 34px;
   border-radius: 999px;
-  background: #e6a552;
-  color: #14464a;
+  background: #c77b52;
+  color: #2e3a2a;
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 10px 22px rgba(230, 165, 82, 0.35);
+  box-shadow: 0 10px 22px rgba(199, 123, 82, 0.35);
   transition: transform 0.15s ease, background 0.15s ease;
 }
 
 .cta-band__btn:hover {
-  background: #efb872;
+  background: #d58f66;
   transform: translateY(-2px);
 }
 
@@ -362,4 +367,29 @@
   .cards {
     grid-template-columns: 1fr;
   }
+}
+
+/* Multi-paragraph body inside centered sections */
+.section__paras {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section__paras p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #45505a;
+  margin: 0 0 18px;
+}
+
+.section__paras p:last-child {
+  margin-bottom: 0;
+}
+
+.cta-band__address {
+  margin: 0 0 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5e7f57;
 }

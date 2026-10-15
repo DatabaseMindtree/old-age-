@@ -5,7 +5,7 @@ export default function Nav() {
     <header className="nav">
       <div className="nav__inner">
         {/* Logo — left */}
-        <a className="nav__logo" href="/" aria-label="Old Age Home — home">
+        <a className="nav__logo" href="/" aria-label="Tairua Residential Care — home">
           <span className="nav__badge" aria-hidden="true">
             <svg viewBox="0 0 40 40" width="40" height="40">
               <circle cx="20" cy="23" r="8" fill="#fff" opacity="0.95" />
@@ -32,14 +32,16 @@ export default function Nav() {
         <nav className="nav__menu" aria-label="Main navigation">
           <a className="nav__link" href="/">Home</a>
           <a className="nav__link" href="/about-us">About Us</a>
-          <a className="nav__link" href="/employment">Employment</a>
-          <a className="nav__link" href="/contact-us">Contact Us</a>
+          <a className="nav__link" href="/our-care">Our Care</a>
+          <a className="nav__link" href="/living-here">Living Here</a>
+          <a className="nav__link" href="/moving-in">Moving In</a>
+          <a className="nav__link" href="/contact-us">Contact</a>
         </nav>
 
         {/* Name — right */}
         <a className="nav__name" href="/">
-          <span className="nav__name-title">Old Age Home</span>
-          <span className="nav__name-tagline">Care &amp; Comfort</span>
+          <span className="nav__name-title">Tairua Residential Care</span>
+          <span className="nav__name-tagline">Rest Home &amp; Hospital Care</span>
         </a>
 
         {/* Hamburger label toggles the checkbox */}

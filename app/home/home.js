@@ -8,38 +8,38 @@ export default function Home() {
       <section className="hero" aria-label="Featured">
         <div className="hero__slides">
           <div className="hero__slide hero__slide--1">
-            <img className="hero__img" src="/img/old-4.jpeg" alt="A warm place to call home" />
+            <img className="hero__img" src="/img/old-4.jpeg" alt="Residents and staff together at Tairua Residential Care" />
             <div className="hero__overlay" />
             <div className="hero__caption">
-              <h1 className="hero__title">A Warm Place to Call Home</h1>
+              <h1 className="hero__title">Rest Home and Hospital Care in Tairua</h1>
               <p className="hero__text">
-                Compassionate care and comfort for every stage of life.
+                A welcoming place to live, with support shaped around you.
               </p>
-              <a className="hero__cta" href="/contact-us">Get in Touch</a>
+              <a className="hero__cta" href="/contact-us">Arrange a Visit</a>
             </div>
           </div>
 
           <div className="hero__slide hero__slide--2">
-            <img className="hero__img" src="/img/old-3.webp" alt="Living the golden years, well" />
+            <img className="hero__img" src="/img/old-3.webp" alt="A resident enjoying company at the home" />
             <div className="hero__overlay" />
             <div className="hero__caption">
-              <h1 className="hero__title">Living the Golden Years, Well</h1>
+              <h1 className="hero__title">Care Shaped Around the Person</h1>
               <p className="hero__text">
-                Comfortable rooms, nutritious meals, and friendly company.
+                Dignity, practical support and involvement in everyday decisions.
               </p>
-              <a className="hero__cta" href="/contact-us">Get in Touch</a>
+              <a className="hero__cta" href="/contact-us">Talk to Us About Care</a>
             </div>
           </div>
 
           <div className="hero__slide hero__slide--3">
-            <img className="hero__img" src="/img/old-1.jpg" alt="Care you can trust" />
+            <img className="hero__img" src="/img/old-1.jpg" alt="Caring support at the home" />
             <div className="hero__overlay" />
             <div className="hero__caption">
-              <h1 className="hero__title">Care You Can Trust</h1>
+              <h1 className="hero__title">A 44-Bed Home on the Coromandel</h1>
               <p className="hero__text">
-                Trained staff and round-the-clock support, every day.
+                Rest home and hospital-level care in the heart of Tairua.
               </p>
-              <a className="hero__cta" href="/contact-us">Get in Touch</a>
+              <a className="hero__cta" href="/contact-us">Arrange a Visit</a>
             </div>
           </div>
         </div>
@@ -53,85 +53,74 @@ export default function Home() {
 
       {/* ---- Welcome intro ---- */}
       <section className="section section--intro">
-        <p className="eyebrow">Welcome to Old Age Home</p>
-        <h2 className="section__title">
-          A caring community where seniors feel at home
-        </h2>
-        <p className="section__lead">
-          This is placeholder text. Add a short, warm introduction about your
-          home here — who you are, the care you provide, and what makes your
-          community special. You can edit this later with your real content.
-        </p>
-      </section>
-
-      {/* ---- Services ---- */}
-      <section className="section section--muted">
-        <div className="section__head">
-          <p className="eyebrow">What We Offer</p>
-          <h2 className="section__title">Our Care &amp; Facilities</h2>
-        </div>
-        <div className="cards">
-          <article className="card">
-            <span className="card__icon" aria-hidden="true">🩺</span>
-            <h3 className="card__title">24/7 Medical Care</h3>
-            <p className="card__text">
-              Trained nurses and on-call doctors looking after health, day and
-              night.
-            </p>
-          </article>
-          <article className="card">
-            <span className="card__icon" aria-hidden="true">🍲</span>
-            <h3 className="card__title">Nutritious Meals</h3>
-            <p className="card__text">
-              Balanced, dietician-approved meals prepared fresh, three times a
-              day.
-            </p>
-          </article>
-          <article className="card">
-            <span className="card__icon" aria-hidden="true">🛏️</span>
-            <h3 className="card__title">Comfortable Rooms</h3>
-            <p className="card__text">
-              Clean, cozy private and shared rooms designed for safety and rest.
-            </p>
-          </article>
-          <article className="card">
-            <span className="card__icon" aria-hidden="true">🎨</span>
-            <h3 className="card__title">Daily Activities</h3>
-            <p className="card__text">
-              Yoga, music, games and social events to keep every day joyful.
-            </p>
-          </article>
+        <p className="eyebrow">Welcome to Tairua Residential Care</p>
+        <h2 className="section__title">A welcoming place to live</h2>
+        <div className="section__paras">
+          <p>
+            Choosing residential care is a personal decision. You want to
+            understand the care available, meet the people involved and feel
+            comfortable asking questions.
+          </p>
+          <p>
+            Tairua Residential Care is a 44-bed home in Tairua on the Coromandel
+            Peninsula, offering rest home and hospital-level care. We believe
+            good care begins with knowing the person: their routines,
+            preferences, background and the people who matter to them.
+          </p>
+          <p>
+            Our approach centres on dignity, practical support and involving
+            residents in decisions about their care. Whether you are exploring
+            options for yourself or someone close to you, we welcome a
+            conversation.
+          </p>
         </div>
       </section>
 
-      {/* ---- Stats band ---- */}
+      {/* ---- Facts band ---- */}
       <section className="stats">
         <div className="stat">
-          <span className="stat__value">15+</span>
-          <span className="stat__label">Years of Care</span>
+          <span className="stat__value">44</span>
+          <span className="stat__label">Beds</span>
         </div>
         <div className="stat">
-          <span className="stat__value">200+</span>
-          <span className="stat__label">Happy Residents</span>
+          <span className="stat__value">Rest Home</span>
+          <span className="stat__label">Everyday Care</span>
         </div>
         <div className="stat">
-          <span className="stat__value">50+</span>
-          <span className="stat__label">Trained Staff</span>
+          <span className="stat__value">Hospital</span>
+          <span className="stat__label">Level Care</span>
         </div>
         <div className="stat">
-          <span className="stat__value">24/7</span>
-          <span className="stat__label">Support</span>
+          <span className="stat__value">Tairua</span>
+          <span className="stat__label">Coromandel Peninsula</span>
         </div>
       </section>
 
-      {/* ---- Call to action ---- */}
+      {/* ---- A new chapter with Olivet ---- */}
+      <section className="section">
+        <p className="eyebrow">Our Next Chapter</p>
+        <h2 className="section__title">A new chapter with Olivet</h2>
+        <div className="section__paras">
+          <p>
+            Tairua Residential Care is preparing for a planned management
+            transition to Olivet Residential Care Limited towards the end of
+            November 2026. Our focus for this next chapter is care that respects
+            each resident, clear communication with families and whānau, and
+            support for the people delivering care. We will share further details
+            as arrangements are finalised.
+          </p>
+        </div>
+      </section>
+
+      {/* ---- Come and meet us ---- */}
       <section className="cta-band">
-        <h2 className="cta-band__title">Come visit us or say hello</h2>
+        <h2 className="cta-band__title">Come and meet us</h2>
         <p className="cta-band__text">
-          Placeholder text — invite families to schedule a visit or get in
-          touch. Replace with your real message later.
+          A visit gives you time to ask questions, talk about your needs and get
+          a feel for the home. Contact us to arrange a suitable time.
         </p>
-        <a className="cta-band__btn" href="/contact-us">Contact Us</a>
+        <p className="cta-band__address">7 Tui Terrace, Tairua 3508</p>
+        <a className="cta-band__btn" href="/contact-us">Arrange a Visit</a>
       </section>
     </>
   );

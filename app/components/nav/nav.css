@@ -7,7 +7,7 @@
   /* Base = solid (safe fallback if scroll animations are unsupported) */
   background: #ffffff;
   border-bottom: 1px solid #eceef0;
-  box-shadow: 0 2px 14px rgba(20, 116, 111, 0.08);
+  box-shadow: 0 2px 14px rgba(94, 127, 87, 0.08);
   /* Transparent at the very top, solid after ~90px of scrolling — pure CSS */
   animation: nav-bg linear both;
   animation-timeline: scroll(root);
@@ -23,7 +23,7 @@
   to {
     background: #ffffff;
     border-bottom-color: #eceef0;
-    box-shadow: 0 2px 14px rgba(20, 116, 111, 0.08);
+    box-shadow: 0 2px 14px rgba(94, 127, 87, 0.08);
   }
 }
 
@@ -51,8 +51,8 @@
   width: 52px;
   height: 52px;
   border-radius: 16px;
-  background: linear-gradient(140deg, #14746f 0%, #1a9187 55%, #e6a552 140%);
-  box-shadow: 0 6px 14px rgba(20, 116, 111, 0.28);
+  background: linear-gradient(140deg, #5e7f57 0%, #6f9566 55%, #c77b52 140%);
+  box-shadow: 0 6px 14px rgba(94, 127, 87, 0.28);
 }
 
 /* Hidden checkbox that powers the mobile menu */
@@ -69,14 +69,15 @@
   justify-self: center;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
 }
 
 .nav__link {
   position: relative;
-  padding: 10px 14px;
-  font-size: 16px;
+  padding: 10px 12px;
+  font-size: 15px;
   font-weight: 500;
+  white-space: nowrap;
   text-decoration: none;
   border-radius: 8px;
   /* Dark by default; white while transparent at the top */
@@ -103,7 +104,7 @@
   bottom: 4px;
   height: 2px;
   border-radius: 2px;
-  background: #e6a552;
+  background: #c77b52;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.18s ease;
@@ -124,10 +125,11 @@
 }
 
 .nav__name-title {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: 0.2px;
-  color: #14464a;
+  white-space: nowrap;
+  color: #2e3a2a;
   animation: nav-name linear both;
   animation-timeline: scroll(root);
   animation-range: 0 90px;
@@ -138,7 +140,7 @@
     color: #ffffff;
   }
   to {
-    color: #14464a;
+    color: #2e3a2a;
   }
 }
 
@@ -147,7 +149,7 @@
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #e0a458;
+  color: #bf7149;
 }
 
 /* ---- Mobile toggle (hamburger) ---- */
@@ -168,7 +170,7 @@
   height: 2px;
   margin: 0 auto;
   border-radius: 2px;
-  background: #14746f;
+  background: #5e7f57;
   animation: nav-bar linear both;
   animation-timeline: scroll(root);
   animation-range: 0 90px;
@@ -179,12 +181,12 @@
     background: #ffffff;
   }
   to {
-    background: #14746f;
+    background: #5e7f57;
   }
 }
 
 /* ---- Responsive ---- */
-@media (max-width: 860px) {
+@media (max-width: 1060px) {
   .nav__toggle {
     display: flex;
   }
@@ -205,7 +207,7 @@
     padding: 14px 18px 22px;
     background: #ffffff;
     border-bottom: 1px solid #eceef0;
-    box-shadow: 0 10px 22px rgba(20, 116, 111, 0.12);
+    box-shadow: 0 10px 22px rgba(94, 127, 87, 0.12);
     transform: translateY(-8px);
     opacity: 0;
     pointer-events: none;
@@ -228,8 +230,8 @@
   }
 
   .nav__menu .nav__link:hover {
-    color: #14746f;
-    background: #e6f2f0;
+    color: #5e7f57;
+    background: #e9efe1;
   }
 
   .nav__menu .nav__link::after {

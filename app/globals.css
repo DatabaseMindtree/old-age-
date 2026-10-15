@@ -29,7 +29,7 @@ body {
 .page-banner {
   padding: 132px 28px 64px;
   text-align: center;
-  background: linear-gradient(135deg, #0f6a66, #1a9187);
+  background: linear-gradient(135deg, #4f6d47, #6f9566);
   color: #ffffff;
 }
 
@@ -39,7 +39,7 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ffd9a0;
+  color: #eac3a4;
 }
 
 .page-banner__title {
@@ -56,7 +56,7 @@ body {
   max-width: 640px;
   font-size: 18px;
   line-height: 1.6;
-  color: #e7f2f0;
+  color: #eef2e6;
 }
 
 .page {
@@ -74,6 +74,37 @@ body {
 
 .h-serif {
   font-family: Georgia, "Times New Roman", serif;
-  color: #14464a;
+  color: #2e3a2a;
   font-weight: 600;
+}
+
+/* Reusable sub-heading + button for inner pages */
+.page__h {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2e3a2a;
+  font-weight: 600;
+  font-size: clamp(22px, 2.8vw, 30px);
+  margin: 40px 0 14px;
+}
+
+.page__h:first-child {
+  margin-top: 0;
+}
+
+.page__cta {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 13px 28px;
+  border-radius: 999px;
+  background: #c77b52;
+  color: #2e3a2a;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.page__cta:hover {
+  background: #d58f66;
+  transform: translateY(-2px);
 }

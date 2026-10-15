@@ -5,57 +5,51 @@ export default function About() {
     <>
       <section className="page-banner">
         <p className="page-banner__eyebrow">About Us</p>
-        <h1 className="page-banner__title">Caring for our elders like family</h1>
+        <h1 className="page-banner__title">Care starts with getting to know you</h1>
         <p className="page-banner__sub">
-          This is placeholder text for the About page. Replace it later with a
-          short line about your home&apos;s mission.
+          A person’s care needs are only one part of their story.
         </p>
       </section>
 
       <div className="page prose">
-        <h2 className="h-serif about__h">Our Story</h2>
         <p>
-          This is placeholder content. Write about how and when your old age
-          home started, the people behind it, and the community you serve. Keep
-          it warm and personal — families reading this want to feel they can
-          trust you with their loved ones.
+          A person’s care needs are only one part of their story. The way they
+          like to spend their morning, the people they love and the traditions
+          they value all matter.
         </p>
         <p>
-          Add another paragraph here about your journey and growth over the
-          years. You can edit all of this text later with your real story.
+          At Tairua Residential Care, our approach is to listen first and plan
+          care around the individual. We support residents to make choices,
+          maintain independence where possible and stay involved in decisions as
+          their needs change.
+        </p>
+        <p>
+          We recognise the place of family and whānau while respecting each
+          resident’s preferences, privacy and consent. Clear information and an
+          approachable team help everyone understand what is happening and raise
+          questions early.
         </p>
 
-        <div className="about__mv">
-          <div className="about__mv-card">
-            <h3 className="h-serif">Our Mission</h3>
-            <p>
-              Placeholder text describing your mission — the promise you make to
-              residents and their families every single day.
-            </p>
-          </div>
-          <div className="about__mv-card">
-            <h3 className="h-serif">Our Vision</h3>
-            <p>
-              Placeholder text describing your vision — the kind of community and
-              future you are working towards.
-            </p>
-          </div>
-        </div>
+        <h2 className="h-serif about__h">Our next chapter</h2>
+        <p>
+          Olivet Residential Care Limited is preparing to take over management of
+          Tairua Residential Care towards the end of November 2026. The incoming
+          management’s priorities are resident wellbeing, capable clinical
+          leadership, staff support and communication with the people who use and
+          deliver our services.
+        </p>
 
-        <h2 className="h-serif about__h">Our Values</h2>
-        <div className="about__values">
-          <div className="about__value">
-            <h3 className="h-serif">Compassion</h3>
-            <p>Placeholder — describe how you care with kindness and respect.</p>
-          </div>
-          <div className="about__value">
-            <h3 className="h-serif">Dignity</h3>
-            <p>Placeholder — every resident is treated with dignity and warmth.</p>
-          </div>
-          <div className="about__value">
-            <h3 className="h-serif">Safety</h3>
-            <p>Placeholder — a secure, well-maintained environment for all.</p>
-          </div>
+        <div className="about__message">
+          <h3 className="h-serif">A message from Jijo John</h3>
+          <p>
+            “As a New Zealand registered nurse with experience in clinical care,
+            leadership and nursing education, I value care that takes time to
+            understand the person. My focus for Tairua is to work with the care
+            team to support residents’ wellbeing, listen to families and whānau,
+            and build a service where concerns are heard and followed up. I look
+            forward to getting to know the residents, staff and wider Tairua
+            community.”
+          </p>
         </div>
       </div>
     </>

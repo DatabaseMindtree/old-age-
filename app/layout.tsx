@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Old Age Home",
-  description: "A caring old age home and nursing residence.",
+  title: "Tairua Residential Care | Rest Home and Hospital Care",
+  description:
+    "Explore rest home and hospital care at Tairua Residential Care in the Coromandel. Contact our team to discuss care needs and arrange a visit.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

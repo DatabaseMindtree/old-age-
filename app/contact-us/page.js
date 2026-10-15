@@ -1,7 +1,7 @@
 import Contact from "./contact";
 
 export const metadata = {
-  title: "Contact Us | Old Age Home",
+  title: "Contact | Tairua Residential Care",
 };
 
 export default function Page() {

@@ -1,0 +1,5 @@
+/* Living Here uses the shared .page / .prose / .page__h / .page__cta styles.
+   Page-specific overrides can go here. */
+.page.prose .page__cta {
+  margin-top: 28px;
+}
